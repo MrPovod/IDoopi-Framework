@@ -1,0 +1,3 @@
+iDoopi Fraemwork - PHP Django based fraemwork. Betta version.
+============================================================
+Etc...
