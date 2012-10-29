@@ -1,0 +1,37 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>iDoopi Fraemwork - Just PHP MVC Fraemwork</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" edit="iDoopi Fraemwork - Just PHP MVC Fraemwork"/>
+        <meta name="keywords" edit="php, fraemwork, django, php django fraemwork"/>
+        <meta name="robots" edit="all"/>
+        <link rel="stylesheet" href="<?= $dir ?>/site/css/style.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <link rel="shortcut icon" href="<?= $dir ?>/site/img/ico.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div id="content">
+            <div id="message"><h3>Very soon... <a href="<?= $dir ?>">back</a>.</h3></div>
+        </div>
+        
+         <script type="text/javascript">
+            $(document).ready(function() {
+                $("#content").css({
+                    'position': 'fixed',
+                    'left': '50%',
+                    'top': '50%'
+                });
+                
+                $("#content").css({
+                    'margin-left': -$("#content").width() / 2 + 'px',
+                    'margin-top': -$("#content").height() / 2 + 'px'
+                });
+            });
+        </script>
+    </body>
+</html>
